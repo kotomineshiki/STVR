@@ -12,13 +12,7 @@ public class ActionTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (te.GetCurrentState()==RhythmState.NotAwailable)
-        {
-            Time.timeScale = 0;
-        }else
-        {
-            Time.timeScale = 1;
-        }
+
         
 
 	}
